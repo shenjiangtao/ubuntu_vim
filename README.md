@@ -26,6 +26,10 @@ cp .vimrc ~/.vimrc
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+国内镜像
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://cdn.jsdelivr.net/gh/junegunn/vim-plug@master/plug.vim
+
 ```
 
 ### 3. 安装插件
