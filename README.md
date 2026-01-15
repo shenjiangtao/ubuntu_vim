@@ -20,26 +20,31 @@
 将 `.vimrc` 拷贝到用户目录：
 ```bash
 cp .vimrc ~/.vimrc
-
+```
 ### 2. 安装 vim-plug
 使用 curl 下载并安装：
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
 
 ### 3. 安装插件
 进入 Vim，执行：
 ```bash
 :PlugInstall
+```
 
 ### 4 安装 clangd
 macOS
 ```bash
 brew install llvm
+```
 Ubuntu
 ```bash
 sudo apt install clangd
+```
 
 ### 5.一键安装脚本
 ```bash
 ./install_vim_env.sh
+```
